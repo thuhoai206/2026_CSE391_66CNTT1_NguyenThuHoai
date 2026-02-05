@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Basic Info</h2>
+
+        <div class="form-row">
+            <label>Employee ID</label>
+            <input type="text" value="9" readonly>
+        </div>
+        <div class="form-row">
+            <label>Last Name</label>
+            <input type="text">
+        </div>s
+        <div class="form-row">
+            <label>First Name</label>
+            <input type="text">
+        </div>
+
+  
+
+        <div class="form-row">
+            <label>Gender</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> XXX</label>
+                <label><input type="radio" name="gender"> ZZZ</label>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <label>Title</label>
+            <input type="text">
+        </div>
+        <div class="form-row">
+            <label>Suffix</label>
+            <input type="text">
+        </div>
+
+        <div class="form-row">
+            <label>Birth Date</label>
+            <input type="datetime-local">
+        </div>
+        <div class="form-row">
+            <label>Hire Date</label>
+            <input type="datetime-local">
+        </div>
+        <div class="form-row">
+            <label>Reports To</label>
+            <select>
+                <option>Buchanan</option>
+                <option>Fuller</option>
+                <option>Leverling</option>
+                <option>Peacock</option>
+            </select>
+        </div>
+
+        <h2>Contact Info</h2>
+
+        <div class="form-row">
+            <label>Email</label>
+            <input type="email">
+        </div>
+
+        <div class="form-row">
+            <label>Country</label>
+            <select>
+                <option>Vietnam</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>Japan</option>
+            </select>
+        </div>
+
+        <h2>Optional Info</h2>
+
+        <div class="form-row">
+            <label>Notes</label>
+            <textarea rows="5"></textarea>
+        </div>
+
+        <div class="form-row">
+            <label>Preferred Shift</label>
+            <div class="checkbox-group">
+            <label><input type="checkbox"> Regular</label>
+            <label><input type="checkbox"> Gravy Yard</label>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <label>Active?</label>
+            <input type="checkbox">
+        </div>
+
+        <div class="button-row">
+            <button class="submit">Submit</button>
+            <button class="cancel">Cancel</button>
+        </div>
+    </div>
+
+</body>
+</html>
